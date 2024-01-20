@@ -28,9 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             PBgame = new PictureBox();
             label1 = new Label();
-            label2 = new Label();
+            lbScore = new Label();
+            gameTimer = new System.Windows.Forms.Timer(components);
+            lbGameOver = new Label();
             ((System.ComponentModel.ISupportInitialize)PBgame).BeginInit();
             SuspendLayout();
             // 
@@ -41,6 +44,7 @@
             PBgame.Size = new Size(624, 429);
             PBgame.TabIndex = 0;
             PBgame.TabStop = false;
+            PBgame.Paint += PBgame_Paint;
             // 
             // label1
             // 
@@ -51,21 +55,31 @@
             label1.TabIndex = 1;
             label1.Text = "Score :";
             // 
-            // label2
+            // lbScore
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(701, 12);
-            label2.Name = "label2";
-            label2.Size = new Size(50, 20);
-            label2.TabIndex = 2;
-            label2.Text = "label2";
+            lbScore.AutoSize = true;
+            lbScore.Location = new Point(701, 12);
+            lbScore.Name = "lbScore";
+            lbScore.Size = new Size(50, 20);
+            lbScore.TabIndex = 2;
+            lbScore.Text = "label2";
+            // 
+            // lbGameOver
+            // 
+            lbGameOver.AutoSize = true;
+            lbGameOver.Location = new Point(655, 87);
+            lbGameOver.Name = "lbGameOver";
+            lbGameOver.Size = new Size(40, 20);
+            lbGameOver.TabIndex = 3;
+            lbGameOver.Text = "Over";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(782, 453);
-            Controls.Add(label2);
+            Controls.Add(lbGameOver);
+            Controls.Add(lbScore);
             Controls.Add(label1);
             Controls.Add(PBgame);
             MaximizeBox = false;
@@ -80,6 +94,8 @@
 
         private PictureBox PBgame;
         private Label label1;
-        private Label label2;
+        private Label lbScore;
+        private System.Windows.Forms.Timer gameTimer;
+        private Label lbGameOver;
     }
 }
