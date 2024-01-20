@@ -23,3 +23,12 @@ C:\Users\chnut\source\repos\Snake\obj\x86\Debug\Snake.csproj.GenerateResource.ca
 C:\Users\chnut\source\repos\Snake\obj\x86\Debug\Snake.csproj.CoreCompileInputs.cache
 C:\Users\chnut\source\repos\Snake\obj\x86\Debug\Snake.exe
 C:\Users\chnut\source\repos\Snake\obj\x86\Debug\Snake.pdb
+C:\Users\chnut\source\repos\Snake-Game\Snake\bin\Debug\Snake.exe
+C:\Users\chnut\source\repos\Snake-Game\Snake\bin\Debug\Snake.pdb
+C:\Users\chnut\source\repos\Snake-Game\Snake\obj\x86\Debug\Snake.csproj.AssemblyReference.cache
+C:\Users\chnut\source\repos\Snake-Game\Snake\obj\x86\Debug\Snake.Form1.resources
+C:\Users\chnut\source\repos\Snake-Game\Snake\obj\x86\Debug\Snake.Properties.Resources.resources
+C:\Users\chnut\source\repos\Snake-Game\Snake\obj\x86\Debug\Snake.csproj.GenerateResource.cache
+C:\Users\chnut\source\repos\Snake-Game\Snake\obj\x86\Debug\Snake.csproj.CoreCompileInputs.cache
+C:\Users\chnut\source\repos\Snake-Game\Snake\obj\x86\Debug\Snake.exe
+C:\Users\chnut\source\repos\Snake-Game\Snake\obj\x86\Debug\Snake.pdb

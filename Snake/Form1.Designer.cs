@@ -41,7 +41,7 @@
             // 
             this.pbCanvas.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.pbCanvas.Location = new System.Drawing.Point(17, 16);
-            this.pbCanvas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbCanvas.Margin = new System.Windows.Forms.Padding(4);
             this.pbCanvas.Name = "pbCanvas";
             this.pbCanvas.Size = new System.Drawing.Size(576, 522);
             this.pbCanvas.TabIndex = 0;
@@ -85,12 +85,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(964, 538);
+            this.ClientSize = new System.Drawing.Size(964, 549);
             this.Controls.Add(this.lblGameOver);
             this.Controls.Add(this.lblScore);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pbCanvas);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Snake";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
